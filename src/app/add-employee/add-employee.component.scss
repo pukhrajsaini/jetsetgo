@@ -1,0 +1,16 @@
+
+form{
+  padding: 20px;
+}
+
+.input-box, .input-box2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  @media(max-width: 600px){
+    grid-template-columns: none;
+  }
+  .input-box-item{
+    width: 100%;
+  }
+}
